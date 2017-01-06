@@ -1,6 +1,6 @@
 {
   "name": "indexeddb-preference-storing",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "Store preferences on client side using IndexedDB",
   "main": "index.js",
   "repository": {
