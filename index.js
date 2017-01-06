@@ -1,4 +1,4 @@
-window.storePreferences = indexedDBRequest => new Promise((resolve,reject) => {
+module.exports = indexedDBRequest => new Promise((resolve,reject) => {
 	indexedDBRequest.addEventListener('upgradeneeded', e => {
 		const db = e.target.result;
 		const dataObjectStore = db.createObjectStore('preferences',{keyPath: 'name'});
