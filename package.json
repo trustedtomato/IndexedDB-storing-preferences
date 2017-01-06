@@ -1,0 +1,20 @@
+{
+  "name": "indexeddb-storing-preferences",
+  "version": "1.0.1",
+  "description": "Store preferences on client side using IndexedDB",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trustedtomato/indexeddb-storing-preferences.git"
+  },
+  "keywords": [
+    "indexeddb",
+    "js"
+  ],
+  "author": "Halasi Tamás",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/trustedtomato/indexeddb-storing-preferences/issues"
+  },
+  "homepage": "https://github.com/trustedtomato/indexeddb-storing-preferences#readme"
+}

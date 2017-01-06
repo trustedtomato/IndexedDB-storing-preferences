@@ -1,0 +1,11 @@
+<script src="index.js"></script>
+<script>
+	storePreferences(indexedDB.open('test-preference-storing')).then(preferences => {
+		preferences.get('number').then(n => n || 0).then(n => {
+			document.write(n + ' (refresh the page)');
+
+			n = n+1;
+			preferences.set('number',n);
+		});
+	});
+</script>
